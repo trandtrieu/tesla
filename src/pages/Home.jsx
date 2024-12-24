@@ -23,25 +23,6 @@ function Home() {
                         alt="Tesla Logo"
                       />
                     </a>
-                    <div className="navbar yamm">
-                      <ul className="nav navbar-nav">
-                        <li>
-                          <a href="/">HOME</a>
-                        </li>
-                        <li>
-                          <a href="/vehicles">VEHICLES</a>
-                        </li>
-                        <li>
-                          <a href="/technology">TECHNOLOGY</a>
-                        </li>
-                        <li>
-                          <a href="/about">ABOUT TESLA</a>
-                        </li>
-                        <li>
-                          <a href="/contact">CONTACT</a>
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -75,17 +56,22 @@ function Home() {
                           <h1 className="main-block__title">
                             Join the <strong>Tesla Referral Program</strong>
                           </h1>
-                          <h5 style={{ padding: "0 20px" }}>
-                            Share your Tesla experience with friends and family.
-                            Earn rewards like Supercharging credits, exclusive
-                            Tesla gear, and more!
-                          </h5>
+                          <h4 style={{ padding: "0 20px" }}>
+                            The first 10 people who use the referral link will
+                            now get $1,000 off Model Y, $1,500 off Model 3 or
+                            $2,000 off Model S, Model X or Cybertruck.
+                          </h4>
+                          <h4 style={{ padding: "0 20px" }}>
+                            All new orders that take delivery by December 31,
+                            2024, can also enjoy 3 months of free Supercharging
+                            and Full Self-Driving (Supervised).
+                          </h4>
                           <a
                             href="https://www.tesla.com/referral/tho925939"
                             className="btn btn-primary btn-effect"
                             target="blank"
                           >
-                            Learn More
+                            Join Now
                           </a>
                         </div>
                         <div className="wrap-link-img">
@@ -97,9 +83,7 @@ function Home() {
                               <a className="link-img__link" href="/model-s">
                                 <img
                                   className="img-responsive"
-                                  src="assets/media/link-img/1.png"
-                                  height={250}
-                                  width={170}
+                                  src="assets/img/banner/1.jpg"
                                   alt="Model S"
                                 />
                                 <div className="link-img__wrap-title">
@@ -113,9 +97,7 @@ function Home() {
                               <a className="link-img__link" href="/model-3">
                                 <img
                                   className="img-responsive"
-                                  src="assets/media/link-img/2.png"
-                                  height={250}
-                                  width={170}
+                                  src="assets/img/banner/2.jpg"
                                   alt="Model 3"
                                 />
                                 <div className="link-img__wrap-title">
@@ -134,14 +116,12 @@ function Home() {
                               <a className="link-img__link" href="/model-x">
                                 <img
                                   className="img-responsive"
-                                  src="assets/media/link-img/3.png"
-                                  height={250}
-                                  width={170}
+                                  src="assets/img/banner/4.jpg"
                                   alt="Model X"
                                 />
                                 <div className="link-img__wrap-title">
                                   <span className="link-img__title">
-                                    Model X
+                                    Model Y
                                   </span>
                                 </div>
                               </a>
@@ -150,14 +130,12 @@ function Home() {
                               <a className="link-img__link" href="/model-y">
                                 <img
                                   className="img-responsive"
-                                  src="assets/media/link-img/4.png"
-                                  height={250}
-                                  width={170}
+                                  src="assets/img/banner/3.jpg"
                                   alt="Model Y"
                                 />
                                 <div className="link-img__wrap-title">
                                   <span className="link-img__title">
-                                    Model Y
+                                    Model X
                                   </span>
                                 </div>
                               </a>
@@ -171,6 +149,14 @@ function Home() {
               </section>
             </div>
           </div>
+          <footer className="footer">
+            <div className="container text-center">
+              <p>
+                © {new Date().getFullYear()} Tesla, Inc. All Rights Reserved. |{" "}
+                <a href="/privacy">Privacy Policy</a>
+              </p>
+            </div>
+          </footer>
         </div>
       </div>
     </>

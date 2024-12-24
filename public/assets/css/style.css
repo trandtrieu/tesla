@@ -1,0 +1,17 @@
+.link-img__item img {
+    width: 100%;
+    /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của container */
+    height: 250px;
+    /* Đặt chiều cao cố định */
+    object-fit: cover;
+    /* Đảm bảo hình ảnh không bị méo và giữ tỷ lệ */
+    border-radius: 8px;
+    /* Tùy chọn: Bo góc cho hình ảnh */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Tùy chọn: Thêm bóng cho hình ảnh */
+}
+
+.link-img__item {
+    margin: 15px;
+    /* Thêm khoảng cách giữa các hình ảnh */
+}
