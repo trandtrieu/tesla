@@ -15,3 +15,29 @@
     margin: 15px;
     /* Thêm khoảng cách giữa các hình ảnh */
 }
+
+.main-block h4 {
+    font-size: 14px;
+    /* Đặt kích thước chữ phù hợp */
+    color: #555;
+    /* Màu chữ nhẹ nhàng */
+    line-height: 1.6;
+    /* Tăng khoảng cách giữa các dòng để dễ đọc */
+    text-align: center;
+    /* Canh giữa nội dung */
+    margin: 10px 10px;
+    /* Thêm khoảng cách giữa các thẻ */
+    padding: 0 60px;
+    /* Căn chỉnh khoảng cách nội dung với cạnh */
+    font-weight: 400;
+    /* Đặt độ dày font vừa phải */
+}
+
+.main-block h4:hover {
+    color: #000;
+    /* Đổi màu chữ khi rê chuột */
+    transform: scale(1.05);
+    /* Phóng to nhẹ */
+    transition: all 0.3s ease-in-out;
+    /* Thêm hiệu ứng mượt mà */
+}

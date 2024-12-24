@@ -10,23 +10,22 @@ function Home() {
         <div id="wrapper">
           {/* Header */}
           <div className="header">
-            <div className="header__inner">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12 col-xs-12">
-                    <a href="/" className="logo">
-                      <img
-                        className="logo__img img-responsive"
-                        src="assets/img/logo.png"
-                        height={20}
-                        width={80}
-                        alt="Tesla Logo"
-                      />
-                    </a>
-                  </div>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 col-xs-12">
+                  <a href="/" className="logo">
+                    <img
+                      className="logo__img img-responsive"
+                      src="assets/img/logo.png"
+                      height={20}
+                      width={80}
+                      alt="Tesla Logo"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
+            {/* <div className="header__inner"></div> */}
           </div>
 
           {/* Main Content */}
@@ -56,23 +55,34 @@ function Home() {
                           <h1 className="main-block__title">
                             Join the <strong>Tesla Referral Program</strong>
                           </h1>
-                          <h4 style={{ padding: "0 20px" }}>
-                            The first 10 people who use the referral link will
-                            now get $1,000 off Model Y, $1,500 off Model 3 or
-                            $2,000 off Model S, Model X or Cybertruck.
-                          </h4>
-                          <h4 style={{ padding: "0 20px" }}>
-                            All new orders that take delivery by December 31,
-                            2024, can also enjoy 3 months of free Supercharging
-                            and Full Self-Driving (Supervised).
-                          </h4>
-                          <a
-                            href="https://www.tesla.com/referral/tho925939"
-                            className="btn btn-primary btn-effect"
-                            target="blank"
-                          >
-                            Join Now
-                          </a>
+                          <div className="h4-container">
+                            <h4>
+                              The first 10 people who use the referral link will
+                              now get $1,000 off Model Y, $1,500 off Model 3 or
+                              $2,000 off Model S, Model X or Cybertruck.
+                            </h4>
+                            <h4>
+                              All new orders that take delivery by December 31,
+                              2024, can also enjoy 3 months of free
+                              Supercharging and Full Self-Driving (Supervised).
+                            </h4>
+                          </div>
+
+                          <div className="row">
+                            <div className="col-xs-12">
+                              <a
+                                className="brand-link text-center wow bounceInUp"
+                                href="https://www.tesla.com/referral/tho925939"
+                              >
+                                <i className="icon fa fa-caret-right" />
+                                Join Now
+                                <i className="icon fa fa-caret-left" />
+                                <span className="br" />
+                                <div className="decor-1 decor-1_mod-b" />
+                              </a>{" "}
+                            </div>
+                            {/* end col */}
+                          </div>
                         </div>
                         <div className="wrap-link-img">
                           <ul
@@ -149,14 +159,14 @@ function Home() {
               </section>
             </div>
           </div>
-          <footer className="footer">
+          {/* <footer className="footer">
             <div className="container text-center">
               <p>
                 © {new Date().getFullYear()} Tesla, Inc. All Rights Reserved. |{" "}
                 <a href="/privacy">Privacy Policy</a>
               </p>
             </div>
-          </footer>
+          </footer> */}
         </div>
       </div>
     </>
