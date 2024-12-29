@@ -76,7 +76,7 @@ function Home() {
                                 target="blank"
                               >
                                 <i className="icon fa fa-caret-right" />
-                                Join Now
+                                Referral Code Link
                                 <i className="icon fa fa-caret-left" />
                                 <span className="br" />
                                 <div className="decor-1 decor-1_mod-b" />
