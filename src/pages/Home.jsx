@@ -73,6 +73,7 @@ function Home() {
                               <a
                                 className="brand-link text-center wow bounceInUp"
                                 href="https://www.tesla.com/referral/tho925939"
+                                target="blank"
                               >
                                 <i className="icon fa fa-caret-right" />
                                 Join Now
@@ -90,7 +91,11 @@ function Home() {
                             data-wow-duration="2s"
                           >
                             <li className="link-img__item">
-                              <a className="link-img__link" href="/model-s">
+                              <a
+                                className="link-img__link"
+                                href="https://www.tesla.com/models/design?referral=tho925939&redirect=no#overview"
+                                target="blank"
+                              >
                                 <img
                                   className="img-responsive"
                                   src="assets/img/banner/1.jpg"
@@ -104,7 +109,11 @@ function Home() {
                               </a>
                             </li>
                             <li className="link-img__item">
-                              <a className="link-img__link" href="/model-3">
+                              <a
+                                className="link-img__link"
+                                href="https://www.tesla.com/model3/design?referral=tho925939&redirect=no#overview"
+                                target="blank"
+                              >
                                 <img
                                   className="img-responsive"
                                   src="assets/img/banner/2.jpg"
@@ -123,11 +132,15 @@ function Home() {
                             data-wow-duration="2s"
                           >
                             <li className="link-img__item">
-                              <a className="link-img__link" href="/model-x">
+                              <a
+                                className="link-img__link"
+                                href="https://www.tesla.com/modely/design?referral=tho925939&redirect=no#overview"
+                                target="blank"
+                              >
                                 <img
                                   className="img-responsive"
                                   src="assets/img/banner/4.jpg"
-                                  alt="Model X"
+                                  alt="Model Y"
                                 />
                                 <div className="link-img__wrap-title">
                                   <span className="link-img__title">
@@ -137,11 +150,15 @@ function Home() {
                               </a>
                             </li>
                             <li className="link-img__item">
-                              <a className="link-img__link" href="/model-y">
+                              <a
+                                className="link-img__link"
+                                href="https://www.tesla.com/modelx/design?referral=tho925939&redirect=no#overview"
+                                target="blank"
+                              >
                                 <img
                                   className="img-responsive"
                                   src="assets/img/banner/3.jpg"
-                                  alt="Model Y"
+                                  alt="Model X"
                                 />
                                 <div className="link-img__wrap-title">
                                   <span className="link-img__title">
