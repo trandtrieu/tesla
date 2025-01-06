@@ -57,14 +57,9 @@ function Home() {
                           </h1>
                           <div className="h4-container">
                             <h4>
-                              The first 10 people who use the referral link will
-                              now get $1,000 off Model Y, $1,500 off Model 3 or
-                              $2,000 off Model S, Model X or Cybertruck.
-                            </h4>
-                            <h4>
-                              All new orders that take delivery by December 31,
-                              2024, can also enjoy 3 months of free
-                              Supercharging and Full Self-Driving (Supervised).
+                              The first 10 people who order a new Tesla using
+                              the referral link will receive up to $1,000 off
+                              the purchase price.
                             </h4>
                           </div>
 
