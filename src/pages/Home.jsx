@@ -57,9 +57,14 @@ function Home() {
                           </h1>
                           <div className="h4-container">
                             <h4>
-                              The first 10 people who order a new Tesla using
-                              the referral link will receive up to $1,000 off
-                              the purchase price.
+                              The first 10 people who purchase or finance a new
+                              Model 3 using the referral link will receive
+                              $2,500 off your new vehicle.
+                            </h4>
+                            <h4>
+                              You can also get $1,000 off a new Model S, Model X
+                              or Cybertruck, or $500 off a new Model Y or new
+                              leased Model 3.
                             </h4>
                           </div>
 
